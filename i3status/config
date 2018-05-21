@@ -1,0 +1,29 @@
+
+
+
+
+order += "disk /"
+order += "wireless wlan0"
+order += "tztime local"
+order += "battery 1"
+
+
+battery 1 {
+    format = "%status %percentage %remaining"
+    path = "/sys/class/power_supply/BAT0/uevent"
+ }
+
+wireless wlan0 {
+        format_up = "W: (%quality at %essid, %bitrate) %ip"
+        format_down = "W: down"
+}
+
+disk "/" {
+        format = "%free"
+}
+
+tztime local {
+        format = "%Y-%m-%d %H:%M:%S"
+}
+
+

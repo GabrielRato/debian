@@ -1,0 +1,65 @@
+! urxvt
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*underlineColor: yellow
+URxvt*depth: 32
+URxvt*borderless: 1
+URxvt*scrollBar: false
+URxvt*loginShell: true
+Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt*saveLines: 5000
+URxvt*termName: rxvt-unicode
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: google-chrome
+
+
+! config font
+URxvt.font: xft:hack:style=Regular:size=11
+URxvt.boldFont: xft:hackstyle=Regular:size=11
+! URxvt*font:  xft:hack:size=10
+
+
+
+
+! set transparency
+urxvt*transparent: true
+urxvt*shading: 30
+
+!-- Colors
+!
+!!      black
+URxvt.color0:   #030303
+URxvt.color8:   #555753
+!!      red
+URxvt.color1:   #e40281
+URxvt.color9:   #f02148
+!!      green
+URxvt.color2:   #83f209
+URxvt.color10:  #4c8251
+!!      yellow
+URxvt.color3:   #e9ee02
+URxvt.color11:  #db8b22
+!!      blue
+URxvt.color4:   #4f1fdc
+URxvt.color12:  #04eef2
+!!      magenta
+URxvt.color5:   #a802dd
+URxvt.color13:  #810322
+!!      cyan
+URxvt.color6:   #15a448
+URxvt.coloir14: #34E2E2
+!!      white
+URxvt.color7:   #D3D7CF
+URxvt.color15:  #EEEEEC
+!!
+!URxvt.foreground: #AAAAAA
+!URxvt.background: #000000
+!URxvt.colorBD: #ffffff
+!URxvt.underlineColor: #75507B
+!cursorColor:#e0e080
+!!      scrollbar color
+!scrollColor #010203
+!!      the color of zone scrollbar get through
+!throughColor: #8080f0
+!highlightColor: #f0f0f0
+!highlightTextColor: #000000
